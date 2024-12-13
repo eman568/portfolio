@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/ani.css">
+    <link rel="stylesheet" href="css/respo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="highlight">EMAN</span>ABDURAHMAN
+            </div>
+            <div class="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="text-content">
+                    <h1 class="animate-text">Hi, I'm <span class="highlight">EMAN ABDURAHMAN</span></h1>
+                    <h2 class="animate-text delay-1">Front End Developer</h2>
+                    <p class="animate-text delay-2">I create beautiful and functional websites with passion and creativity</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="shape"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate developer with a keen eye for design and a strong foundation in modern web technologies. With years of experience in creating responsive and user-friendly applications, I strive to build solutions that make a difference.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>ART GALLARY</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Live</a>
+                            <a href="#" class="btn small secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project two</h3>
+                            <p>Attendace managent system</p>
+                            <div class="project-links">
+                                <a href="#" class="btn small">View Live</a>
+                                <a href="#" class="btn small secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+               
+           
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="js/ani.js"></script>
+    <script type="module" src="js/form.js"></script>
+</body>
+</html>
